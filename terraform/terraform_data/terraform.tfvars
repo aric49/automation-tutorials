@@ -1,3 +1,1 @@
-#Controls the terraform_data block state
-
-data_block_trigger = "Initial Value"
+variable_1 = "This is another override."

@@ -1,5 +1,6 @@
-variable "data_block_trigger" {
+variable "variable_1" {
   type        = string
-  description = "This variable controls the Terraform_Data block!"
-  default     = null
+  description = "This variable controls the lifecycle of the terraform data block"
+  default     = "My default value"
+
 }
