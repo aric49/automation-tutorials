@@ -1,5 +1,5 @@
-variable "data_block_trigger" {
+variable "provisioner_data" {
   type        = string
-  description = "This variable controls the Terraform_Data block!"
+  description = "This variable provides input to the terraform_data block"
   default     = null
 }
